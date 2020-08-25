@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset = "UTF-8">
+    <!--Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marywe's portfolio </title>
+    
+    <link rel="shortcut icon" type="image/ico" href="img/icon.ico">
+    <!--Icono pestaña -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:800|VT323&display=swap" rel="stylesheet"> <!--Google Fonts -->
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script> <!-- Iconos y doc -->
+    <script src="js/script.js"></script>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+    
+</head>
+    
+    
+<body>
+    <header>
+        <figure>
+                <img src="img/Logo.png" alt="">
+                
+            </figure>
+    </header>
+     <nav id="menu">
+        
+        <ul>
+            <li>
+                <i class="fas fa-bars" onclick="menu()"></i>
+            </li>
+            <li>
+                <a href="#" onclick="closeMenu()"><img src="img/M.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#about" onclick="closeMenu()">ABOUT ME</a>
+            </li>
+            <li>
+                <a href="#proyectos" onclick="closeMenu()">PROYECTOS</a>
+            </li>
+            <li>
+                <a href="#contact" onclick="closeMenu()">CONTACTO</a>
+            </li>
+        </ul>
+    </nav>
+
+    
+    <hr>
+    <section id="about"><!--ABOUT ME-->
+        <h3 class="title">About me</h3>
+    <div id="two-cols">
+      <div class="about-img"><img src="img/yo.jpeg" alt=""></div>
+      
+        <div class="about-bio">
+            <p>&emsp;Hello, world! Me llamo María López y soy desarrolladora de videojuegos.</p>
+<br>
+<p>&emsp;A pesar de ser junior, ya he tomado contacto con varios elementos del sector, tanto programación como diseño y arte. He trabajado con herramientas como Photoshop, Illustrator, MagicaVoxel, Aseprite, 3Ds Max, Substance... </p>
+            <br>
+<p></p>
+<p>&emsp;Respecto al mundo de la programación, estoy aprendiendo C#, C++, html y CSS, y tengo un nivel medio de todos ellos (lo suficiente como para defenderme bien y, en caso de tener algún problema, cuento con Internet y varios libros para seguir avanzando).</p><br><br>
+<p></p>
+<p>&emsp;Por otro lado, tengo algún que otro proyecto en Unity y Construct, y estoy informándome y aprendiendo más sobre el primero y Unreal Engine 4.</p><br>
+<p></p>
+<p>&emsp;Llevo jugando a videojuegos desde que tengo memoria. A los 12 años oí que existía tan solo una carrera en España dedicada al desarrollo de videojuegos, y en ese entonces supe que quería dedicar mi vida a ello, aunque tuviera que invertir mucho esfuerzo.</p><br>
+<p></p>
+<p>&emsp;Cada día trato de mejorar como programadora, aprendiendo nuevas técnicas y realizando pequeños proyectos para evolucionar como tal. Es un campo abierto a un grandísimo mundo de posibilidades, y estoy realmente apasionada con lo que estoy estudiando y voy a hacer en un futuro: desarrollar videojuegos.
+</p>
+      </div>
+        
+    </div>
+  </section>
+    
+    <hr>
+   <section id="proyectos" class="photo-gallery"><!-- GALERÍA -->
+       <h3 class="title">Proyectos</h3> <!-- Cuando avance con algunos proyectos que tengo entre manos los meteré-->
+     <section>
+        <div id="galeria">
+            <div>
+                <figure>
+                    <img src="img/eclipse_logo.jpg" alt="">
+                    <figcaption>Uno de mis primeros juegos, creado a partir de un trabajo de universidad. Desarrollado en seis meses.</figcaption>
+                </figure>
+                 <video src="img/trailer.mp4" width="500" controls></video>
+                
+                <figure>
+                    <img src="img/unknown.png" width="500" alt="">
+                    <figcaption>Dungeon crawler / Hack and slash en 3D con sprites en 2D, tendrás que ir recorriendo las salas en busca de llaves para abrir la puerta final</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/boss.png" alt="">
+                    <figcaption>Te irás encontrando con diferentes tipos de enemigos, y finalmente un boss con varias fases. </figcaption>
+                </figure>
+                <figure>
+                    <img src="img/enemies.png" alt="">
+                    <figcaption>Cuentas con dos habilidades y el combo de ataques básicos. Además, te irás encontrando mejoras y healthpacks por el camino</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/logo_megalodon.gif" alt="">
+                    <figcaption>Nuestro gran equipo de desarrollo, Megalodon Corps.
+                    Mi contribución al juego ha sido hacer básicamente toda la programación, testing y algo de producción</figcaption>
+                </figure>
+                
+            </div>
+            <p> <a href="https://megalodoncorps.itch.io/eclipse-dawn-of-darkness" target="_blank">https://megalodoncorps.itch.io/eclipse-dawn-of-darkness</a></p>
+            <!--Flechas-->
+            
+            <span class="anterior" onclick="avanzaImagen(-1, 'galeria')">&lt;</span>
+            <span class="siguiente" onclick="avanzaImagen(1, 'galeria')">&gt;</span>
+        </div>
+         
+        
+
+    </section>
+       
+       <hr>
+       <div>
+           <figure>
+                <img src="img/SHBR/Capa%202.png" alt="">
+               <figcaption>Otro de los juegos de los que sentirme orgullosa es el Super Hero Battle Royale. Es un juego de tablero que consistirá en un battle royale. Loot, bosses, eventos y batallas son solo algunas de los elementos de este juego.</figcaption>
+            </figure>
+           <figure>
+                <img src="img/SHBR/1.png" alt="">
+               <figcaption>Nuestro equipo de desarrollo es Kiwi team, compuesto por cuatro miembros. Actualmente tenemos este juego en desarrollo, así que no puedo dar muchos más detalles. Esperamos con gran ansia su salida al mercado.</figcaption>
+            </figure>
+           
+           <hr> 
+           
+            
+          
+            <figure>
+                <img src="img/screenshot001.png" alt="">
+                <figcaption>¡Mi primera práctica de modelado 3D! Inspirada en un pequeño escenario cyberpunk.</figcaption>
+            </figure>
+            <figure>
+                <img src="img/screenshot000.png" alt="">
+                <figcaption>Tiene diferentes materiales y planos, como normal maps, emisivos, de transparencia, de metalness...</figcaption>
+            </figure>
+           <figure>
+                <img src="img/1.jpg" alt="">
+               <figcaption>Escenario 3D inspirado en la luna sangrienta de The Legend of Zelda Breath Of The Wild.</figcaption>
+            </figure>
+            <figure>
+                <img src="img/2.jpg" alt="">
+                <figcaption>Esta es la segunda práctica de modelado 3D, basada en meter planos alphas.</figcaption>
+            </figure>
+       
+  </div>
+    </section>
+    
+    <!-- .............................Carrusel................................................................... -->
+    
+
+    
+  <hr> 
+    
+    
+    <!-- ***************CONTACTO***************** -->
+  <section id="contact">
+      <h3 class="title">Me puedes encontrar...</h3>
+    <div class="flexbox-section">
+      <!-- <p>
+       
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.822457082959!2d-3.669508084642988!3d40.45706637936041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42292a2a67e76f%3A0x7661d685faad2ff8!2sESNE!5e0!3m2!1ses!2ses!4v1584647270310!5m2!1ses!2ses" width="800" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </p>
+     -->
+        <ul>
+            
+            <li> <p>kirilopez99@gmail.com</p> <a title="kirilopez99@gmail.com"> <i class="fas fa-envelope"></i></a></li>
+            <li><p>@marywepls</p><a href="https://twitter.com/marywepls" target="_blank"> <i class="fab fa-twitter"></i></a></li>
+           
+            <li><p>María López</p><a href="https://www.linkedin.com/in/maría-lópez-680144195" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        
+    </div>
+  </section>
+    <hr>
+    
+    
+    <footer id="social-media">
+        <p>&copy; <script>document.write(new Date().getFullYear());</script></p>
+        <p>MADRID, SPAIN</p>
+    </footer>
+</body>
+
+</html>
