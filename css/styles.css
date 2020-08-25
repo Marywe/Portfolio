@@ -252,6 +252,12 @@ div.flexbox-section ul li a {
     margin-bottom: 1em;
 }
 
+#p{ 
+    font-size: 1.5em;
+    padding:1em;
+    text-align: center;
+}
+
 #proyectos > div > figure {
     flex: 40%;
     position: relative;
