@@ -290,6 +290,9 @@ div.flexbox-section ul li a {
 
     flex-direction: column;
     }
+    #proyectos > div > figure > figcaption{
+        font-size: 1.5em;
+    }
 }
 
 
@@ -409,5 +412,15 @@ div.flexbox-section ul li a {
     }
     #galeria video{
         width: 400px;
+    }
+}
+@media screen and (max-width:410px){
+    #galeria{
+        max-width: 355px;
+        font-size: 1em;
+        width: 600%;
+    }
+    #galeria video{
+        width: 355px;
     }
 }
