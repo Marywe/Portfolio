@@ -84,6 +84,7 @@ header {
     text-decoration: none;
 }
 #menu > ul > li:hover {
+  transition: 00.5s;
     background-color: rgb(50, 50, 50);
 }
 
