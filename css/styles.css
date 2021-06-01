@@ -104,11 +104,12 @@ header {
     /* Mostramos la opción del menú con el icono y ocultamos el resto de opciones */
     #menu > ul > li:first-child {
         display: block;
+        font-size: 1.5em;
     }
 
     #menu > ul > li:not(:first-child) {
         display: none;
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
      #menu > ul > li > a > img{
         width: 59%;
@@ -152,7 +153,6 @@ ul{
 .about-img {
 max-width: 20em;
   border: 4px solid black;
-  background-color: #2196f3;
   /*filter: grayscale(100%);*/
     margin-bottom: 2em;
 }
