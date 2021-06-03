@@ -148,13 +148,14 @@ ul{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
 }
 
 .about-img {
-max-width: 20em;
+max-width: 19em;
   border: 4px solid black;
   /*filter: grayscale(100%);*/
-    margin-bottom: 2em;
+    margin-bottom: 4em;
 }
 
 .about-bio {
@@ -162,7 +163,7 @@ max-width: 20em;
   line-height: 1;
   margin-left: 1.5em;
     font-size: 1.5em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 /*------------CONTACT-------------*/
@@ -208,6 +209,7 @@ footer {
   display:flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.3em;
 }
 
 div.flexbox-section p {
@@ -252,9 +254,18 @@ div.flexbox-section ul li a {
     margin-bottom: 1em;
 }
 
+#temtem{
+  margin:1em;
+  width: 10em;
+
+
+  animation-name: animar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
 #p{ 
     font-size: 1.5em;
-    padding:1em;
+    
     text-align: center;
 }
 
@@ -377,6 +388,10 @@ div.flexbox-section ul li a {
     float: left;
 
 }
+#galeria > div > figure > video {
+margin-top: 150px;
+
+}
 
 #galeria > div > figure > figcaption{
     text-align: center;
@@ -420,5 +435,20 @@ div.flexbox-section ul li a {
     }
     #galeria video{
         width: 355px;
+       
     }
+}
+
+@keyframes animar{
+  0% {
+    top: 0;
+  }
+  50%{
+
+    margin-top: 2em;
+    margin-bottom: 0;
+  }
+  100% {
+    top: 0;
+  }
 }
