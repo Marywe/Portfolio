@@ -169,7 +169,7 @@ max-width: 19em;
 /*------------CONTACT-------------*/
 
 #contact {
-  background-color: #2B2B2B;
+    background-color: #2B2B2B;
      padding-top: 3em;
     margin-bottom: 2em;
 }
@@ -191,18 +191,12 @@ div.flexbox-section p {
     
 }*/
 
-@media screen and (max-width:900px) {
-  
-}
-
-
 /* --------------
 FOOTER
 -----------------*/
 
 footer {
      
-  color: white;
   text-align: center;
   background: linear-gradient(to bottom, #6D25DB, #000 100%);
   padding: 20px;
@@ -215,7 +209,7 @@ footer {
 div.flexbox-section p {
   text-transform: uppercase;
 text-align: center;
-  font-size: 2em;
+  font-size: 1.7em;
   color: rgb(255, 255, 255);
   margin-bottom: 0px;
 }
@@ -228,13 +222,15 @@ div.flexbox-section ul {
 
 div.flexbox-section ul li {
   margin: 0 3em;
-    
+     
 }
 
 div.flexbox-section ul li a {
-  font-size: 18em;
+  font-size: 15em;
+}
+div.flexbox-section ul li a:hover 
+{
   cursor: pointer;
-
 }
 
 
@@ -317,7 +313,7 @@ div.flexbox-section ul li a {
 
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1250px) {
   div.flexbox-section ul  {
   
       flex-direction: column;
@@ -354,8 +350,7 @@ div.flexbox-section ul li a {
   }
 }
 
-
-
+/* Galeria fotos*/
 #galeria p{
     font-size: 1.2em;
     text-align: center;
@@ -439,6 +434,7 @@ margin-top: 150px;
     }
 }
 
+/*Animation*/
 @keyframes animar{
   0% {
     top: 0;
