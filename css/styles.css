@@ -24,7 +24,6 @@ h3 {
   }
 }
 
-
 *{
     margin:0;
     padding: 0;
@@ -211,7 +210,6 @@ div.flexbox-section ul li a:hover
 /* --------------
 FOOTER
 -----------------*/
-
 footer {
      
   text-align: center;
@@ -225,8 +223,6 @@ footer {
 
 
 /*------------PROYECTOS-------------*/
-
-
 #proyectos {
   background-color: #2B2B2B;
   padding: 10px;
@@ -242,8 +238,7 @@ footer {
 
 #temtem{
   margin:1em;
-  width: 10em;
-
+  width: 5em;
 
   animation-name: animar;
   animation-duration: 2s;
@@ -293,15 +288,11 @@ footer {
     }
 }
 
-
-
 @media screen and (max-width:800px) {
   header {
     margin-top: 2em;
   }
 }
-
-
 
 @media screen and (max-width: 1250px) {
   div.flexbox-section ul  {
@@ -325,7 +316,6 @@ footer {
  
   }
 }
-
 
 @media screen and (max-width:800px) {
   #about, #two-cols {
