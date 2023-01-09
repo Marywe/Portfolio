@@ -234,6 +234,20 @@ footer {
     display:flex;
     flex-wrap:wrap;
     margin-bottom: 1em;
+    text-align: center;
+}
+#juegoshtml {
+  background-color: #2B2B2B;
+  padding: 10px;
+    margin-bottom: 2em;
+    padding-top: 3em;
+    text-align: center;
+}
+#juegoshtml > div{
+  display:flex;
+    flex-wrap:wrap;
+    margin-bottom: 1em;
+
 }
 
 #temtem{
@@ -254,8 +268,22 @@ footer {
     flex: 40%;
     position: relative;
     margin: 1em;
-    border: 4px solid #FF00BF;
-    
+    border: 4px solid #FF00BF; 
+}
+
+#juegoshtml > div > figure {
+    flex: 30%;
+    position: relative;
+    margin: 1em;
+    border: 2px solid #FF00BF; 
+}
+
+#juegoshtml > p {
+  width: 100%;
+  align-content: center;
+  margin-bottom: 1em;
+  font-size: 1.5em;   
+    text-align: center;
 }
 
  #proyectos > div > figure > figcaption {
@@ -276,6 +304,26 @@ footer {
 
 #proyectos > div > figure:hover > figcaption {
     opacity: 1;
+}
+
+#juegoshtml> div >figure > figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(26, 26, 29, 0.8);
+  font-size:2em;
+  padding: 1em;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+#juegoshtml> div > figure:hover > figcaption {
+  opacity: 1;
 }
 
 @media screen and (max-width:900px) {
