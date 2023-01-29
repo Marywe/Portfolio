@@ -260,7 +260,6 @@ footer {
 }
 #p{ 
     font-size: 1.5em;
-    
     text-align: center;
 }
 
@@ -392,7 +391,7 @@ footer {
 
 #galeria {
     max-width: 500px;
-    margin: 1em auto;
+    margin: 1.5em auto;
     overflow: hidden;
     position: relative;
 
