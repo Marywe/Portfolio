@@ -187,7 +187,7 @@ div.flexbox-section {
 div.flexbox-section p {
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.7em;
+  font-size: 1.3em;
   color: rgb(255, 255, 255);
   margin-bottom: 0px;
 }
@@ -204,7 +204,7 @@ div.flexbox-section ul li {
 }
 
 div.flexbox-section ul li a {
-  font-size: 15em;
+  font-size: 10em;
 }
 
 div.flexbox-section ul li a:hover {
@@ -303,7 +303,7 @@ footer {
 #p {
   font-size: 1.5em;
   text-align: center;
-  margin: 0 10em;
+  margin: 0 15%;
 }
 
 #juegoshtml>div>figure {
@@ -341,7 +341,7 @@ footer {
   opacity: 1;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:800px) {
   #proyectos>div {
 
     flex-direction: column;
@@ -358,31 +358,39 @@ footer {
   }
 }
 
-@media screen and (max-width: 1250px) {
-  div.flexbox-section ul {
-
-    flex-direction: column;
-
-
+@media screen and (max-width:700px) {
+  #p {
+    margin: 0 10%;
   }
-
-  div.flexbox-section p {
-    font-size: 2em;
-
-  }
-
+  
+}
+@media screen and (max-width: 850px) {
+  
   div.flexbox-section ul li {
-    margin-bottom: 1em;
     text-align: center;
-
+    margin: 2em 1em;
 
   }
 
   div.flexbox-section ul li a {
-    font-size: 8em;
-
+    font-size: 5em;
   }
 }
+
+@media screen and (max-width: 550px) {
+  div.flexbox-section ul {
+
+    flex-direction: column;
+    
+  }
+
+  div.flexbox-section ul li {
+    margin: 1em;
+
+  }
+
+}
+
 
 @media screen and (max-width:800px) {
 
