@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Space Race</title>
+</head>
+
+<body>
+
+  <div id="title">SPACE RACE</div>
+  <div id="info">Un juego multijugador que consiste en ser el más rápido
+    para llegar a la meta sin chocarte con obstáculos. Los controles: WS para el P1
+    y flechas arriba/abajo para el P2. Se puede pausar con la P.
+  </div>
+
+  <div id="container">
+    <canvas id="canvas" width="400" height="600"></canvas>
+  </div>
+
+  <div style="display:none;">
+    <img id="P1img" src="P1.png" width="0px" />
+    <img id="P2img" src="P2.png" height="0px" />
+  </div>
+  <script src="../Utils/pause.js"></script>
+  <script src="code.js"></script>
+
+</body>
+
+</html>

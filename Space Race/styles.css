@@ -1,0 +1,56 @@
+#canvas {
+  border: 1px solid black;
+  background-color: darkslateblue;
+  position: absolute;
+  transform: translate(-200px);
+  text-align: center;
+  margin: 0.6em;
+  box-shadow: 0 0 2em rgb(119, 167, 255), 0 0 0.2em rgb(119, 167, 255);
+
+
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+
+}
+
+body {
+  background-image: url("bg.jpg");
+
+}
+
+#title {
+  color: aliceblue;
+  text-align: center;
+  font-size: 5.5em;
+  margin: 0.6em;
+  font-family: monospace;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  text-shadow: 0 0 0.2em rgb(119, 167, 255), 0 0 0.2em rgb(119, 167, 255);
+}
+
+#info {
+  padding: 1em;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0.6em;
+  font-family: monospace;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#P1 {
+  background-image: url("P1.png");
+  background-size: cover;
+}
+
+#P1 {
+  background-image: url("P2.png");
+  background-size: cover;
+}

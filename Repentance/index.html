@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script src="src/Box2D.js"></script>
+    <script src="src/physics.js"></script>
+    <script src="src/engine.js"></script>
+    <script src="src/input.js"></script>
+    <script src="src/ssanimation.js"></script>
+    <script src="src/utils.js"></script>
+    <script src="src/sprite.js"></script>
+
+    <script src="src/gameobject.js"></script>
+    <script src="src/scene.js"></script>
+    <script src="src/gameScene.js"></script>
+    <script src="src/Player.js"></script>
+    <script src="src/lilfly.js"></script>
+    <script src="src/fly.js"></script>
+    <script src="src/keeper.js"></script>
+    <script src="src/boss.js"></script>
+    <script src="src/ingameUI2.js"></script>
+    <script src="src/UIButton.js"></script>
+    <script src="src/background.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Icono y title -->
+    <link rel="shortcut icon" type="image/ico" href="img/icon.ico">
+    <title>Repentance</title>
+</head>
+
+<body>
+    <div id="container">
+        <canvas width=1000 height=600 id="myCanvas"></canvas>
+        <div id="menu">
+            <div class="menuButton" id="startButton">Start</div>
+            <div class="menuButton" id="creditsButton">Credits</div>
+            <div id="credits">
+                <div>
+                    <p>Hecho por María "Marywe" López</p>
+                    <p>Inspirado en The Binding of Isaac, Cuphead y otros juegos 2D</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio src="assets/splatter.mp3" style="display:none" id="shootSound"></audio>
+    <audio src="assets/greed.mp3" style="display:none" id="greed"></audio>
+</body>
+
+</html>

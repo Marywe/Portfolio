@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="../Utils/pause.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Pong</title>
+</head>
+
+<body>
+
+  <div id="title"><b>PONG</b></div>
+  <div id="info">Supongo que nunca has oído hablar de este juego, ¿no...? ¡Pues necesitas a otra persona más
+    (o tus enormes habilidades con dos manos)! Para el P1 tenemos WS y para el P2 flechas arriba/abajo. También puedes
+    pausar con la P.
+    La partida se reinicia al llegar a 7 puntos. Pulsa el espacio para empezar. ¡Buena suerte!
+  </div>
+  <div id="gameContainer">
+    <div id="game" class="game">
+      <div id="divider"></div>
+
+
+      <div id="punctuation1">0</div>
+      <div id="punctuation2">0</div>
+
+      <div id="circle"></div>
+      <div id="win"></div>
+      <div id="pause"></div>
+
+
+      <div id="paddle-left" class="paddle"></div>
+      <div id="paddle-right" class="paddle"></div>
+      <div id="ball" class="ball"></div>
+    </div>
+  </div>
+
+  <script src="code.js"></script>
+
+</body>
+
+</html>
