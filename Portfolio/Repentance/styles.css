@@ -79,7 +79,7 @@ body {
 }
 
 #credits>div {
-    transform: rotateX(11deg) translate3d(0px, -400px, 118px);
+    transform: rotateX(11deg) translate3d(0px, -500px, 118px);
 }
 
 #credits p {

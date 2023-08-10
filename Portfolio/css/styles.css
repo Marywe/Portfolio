@@ -168,6 +168,10 @@ ul {
   margin-bottom: 2em;
 }
 
+.about-bio>a>i {
+width: 0.5em;
+}
+
 /*------------CONTACT-------------*/
 
 #contact {
@@ -291,20 +295,28 @@ footer {
 
 }
 
+#p {
+  font-size: 1.5em;
+  margin: 0 15%;
+  text-align: justify;
+}
+#p2 {
+  font-size: 1.5em;
+  margin: 0 15%;
+  text-align: center;
+}
+
 #temtem {
   margin: 1em;
   width: 5em;
+  text-align: center;
 
   animation-name: animar;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
-#p {
-  font-size: 1.5em;
-  text-align: center;
-  margin: 0 15%;
-}
+
 
 #juegoshtml>div>figure {
   flex: 40%;
@@ -335,6 +347,16 @@ footer {
   padding: 1em;
   transition: 0.5s;
   opacity: 0;
+}
+
+#juegoshtml>div>figure>figcaption>a{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 #juegoshtml>div>figure:hover>figcaption {
