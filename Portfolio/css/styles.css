@@ -166,6 +166,8 @@ ul {
   margin-left: 1.5em;
   font-size: 1.5em;
   margin-bottom: 2em;
+  text-align: justify;
+
 }
 
 .about-bio>a>i {
@@ -241,6 +243,7 @@ footer {
   flex-wrap: wrap;
   margin-bottom: 1em;
   text-align: center;
+  margin:0 2em;
 }
 
 #proyectos>div>figure {
@@ -367,6 +370,8 @@ footer {
   #proyectos>div {
 
     flex-direction: column;
+    margin:0 1em;
+
   }
 
   #proyectos>div>figure>figcaption {
