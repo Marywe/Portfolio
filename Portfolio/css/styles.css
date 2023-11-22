@@ -48,7 +48,6 @@ hr {
 
 
 header {
-
   width: 100%;
   margin-bottom: 2em;
 }
@@ -243,13 +242,12 @@ footer {
   flex-wrap: wrap;
   margin-bottom: 1em;
   text-align: center;
-  margin:0 2em;
 }
 
 #proyectos>div>figure {
   flex: 20%;
   position: relative;
-  margin: 2em;
+  margin: 1em;
   border: 4px solid #FF00BF;
 }
 
@@ -263,7 +261,7 @@ footer {
   align-items: center;
   text-align: center;
   background-color: rgba(26, 26, 29, 0.8);
-  font-size: 2em;
+  font-size: 1.2em;
   padding: 1em;
   transition: 0.5s;
   opacity: 0;
@@ -324,8 +322,8 @@ footer {
 #juegoshtml>div>figure {
   flex: 20%;
   position: relative;
-  margin: 2em;
-  border: 2px solid #FF00BF;
+  margin: 1em;
+  border: 4px solid #FF00BF;
 }
 
 #juegoshtml>p {
@@ -346,7 +344,7 @@ footer {
   align-items: center;
   text-align: center;
   background-color: rgba(26, 26, 29, 0.8);
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 1em;
   transition: 0.5s;
   opacity: 0;
@@ -366,7 +364,7 @@ footer {
   opacity: 1;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1100px) {
   #proyectos>div {
 
     flex-direction: column;
@@ -375,7 +373,7 @@ footer {
   }
 
   #proyectos>div>figure>figcaption {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   #juegoshtml>div{
@@ -387,7 +385,7 @@ footer {
 
   #juegoshtml>div>figure>figcaption{
 
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 }
 
