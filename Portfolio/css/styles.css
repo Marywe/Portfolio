@@ -247,7 +247,7 @@ footer {
 }
 
 #proyectos>div>figure {
-  flex: 40%;
+  flex: 20%;
   position: relative;
   margin: 2em;
   border: 4px solid #FF00BF;
@@ -322,7 +322,7 @@ footer {
 
 
 #juegoshtml>div>figure {
-  flex: 40%;
+  flex: 20%;
   position: relative;
   margin: 2em;
   border: 2px solid #FF00BF;
@@ -375,6 +375,18 @@ footer {
   }
 
   #proyectos>div>figure>figcaption {
+    font-size: 1.5em;
+  }
+
+  #juegoshtml>div{
+
+    flex-direction: column;
+    margin:0 1em;
+
+  }
+
+  #juegoshtml>div>figure>figcaption{
+
     font-size: 1.5em;
   }
 }
