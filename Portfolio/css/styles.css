@@ -72,6 +72,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  list-style: none;
 }
 
 #menu>ul>li {
@@ -130,10 +131,6 @@ img {
 
 a {
   color: white;
-}
-
-ul {
-  list-style: none;
 }
 
 
@@ -201,6 +198,7 @@ div.flexbox-section ul {
   margin-bottom: 1px;
   display: flex;
   flex-direction: row;
+  list-style: none;
 }
 
 div.flexbox-section ul li {
@@ -302,14 +300,22 @@ footer {
   text-align: justify;
 }
 #p2 {
-  font-size: 1.5em;
-  margin: 0 15%;
   text-align: center;
 }
 
+
+#pul >li {
+  list-style: disc;
+  list-style-type: disc;
+  font-size: 1.5em;
+  margin: 0 15%;
+}
+
+  
+
 #temtem {
   margin: 1em;
-  width: 5em;
+  width: 10em;
   text-align: center;
 
   animation-name: animar;
