@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marywe's portfolio</title>
+
+    <!--Icono pestaña -->
+    <link rel="shortcut icon" type="image/ico" href="img/icon.ico">
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:800|VT323&display=swap" rel="stylesheet">
+    <!-- Iconos y doc -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>        
+    <nav id="menu">
+        <ul>
+            <li>
+                <i class="fas fa-bars" onclick="menu()"></i>
+            </li>
+            <li>
+                <a href="#" onclick="closeMenu()"><img src="img/M.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#about" onclick="closeMenu()">ABOUT ME</a>
+            </li>
+            <li>
+                <a href="#proyectos" onclick="closeMenu()">PROJECTS</a>
+            </li>
+            <li>
+                <a href="#contact" onclick="closeMenu()">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+
+    
+    <figure>
+        <img src="img/Logo.png" alt="">
+    </figure>
+
+    <!--*********ABOUT ME*********-->
+    <section id="about">
+        <h2 class="title">About me</h2>
+        <div id = "contenedor" class="container">
+            <div id="img-container">
+                <img src="img/yo.jpg" alt="">
+             </div>
+             <div id = "text-container">
+                <p> Hello, World! My name is María "Marywe" López, and I'm a passionate videogame developer. </p>
+                <p> My primary role in the industry —and the one I'm most passionate about— is Quality Assurance (QA). 
+                    I've worked on several projects as a QA, but I also consider myself versatile, as I have contributed to other projects through design, coding, and even modeling.
+                    Currently, my three-member team and I are working on creating a board game! </p>
+                <p>Additionally, I hold a certificate in Data Analysis, which I hope to leverage to enhance my professional performance. Moreover, 
+                    I would love to explore new opportunities as a QA Analyst or Data Analyst within the video game industry.</p>
+                <p> Playing video games has been my favorite hobby for as long as I can remember. 
+                    Since discovering the first video game degree programs I have devoted myself to this field, investing significant time and effort to turn my passion into a career.
+                    Every day, I strive to become a better developer. 
+                    I continuously learn new techniques and take on small projects to grow and evolve. 
+                    Video game development is an incredibly dynamic field with endless possibilities, and I'm proud of what I've achieved so far and excited for what lies ahead. </p>
+                <a href="Utils/Resume.pdf" target="_blank"><i class="fa-solid fa-envelope"></i> Link to my Curriculum</a>
+             </div>
+        </div>
+    </section>
+
+    <!-- *********GALERÍA DE PROYECTOS********* -->
+    <section id="proyectos">
+        <h2 class="title">Projects</h2> 
+        <div id="projects_container">
+            <p>Throughout my professional career, I've worked on professional titles like the MMO Temtem (Cremagames) and developed different games with my little team, ranging from board 
+                games to casual mobile games, and many other genres, with my main role being a programmer. Moreover, we're dedicating a significant amount of time to one particular project, hoping it will make a notable 
+                impact. We're incredibly excited and can't wait to share some spoilers! You can find more of our work on my itch.io page. Meanwhile, here are some of my most important projects. Click them to expand their info!
+            </p>
+
+            <!-- Temtem -->
+            <div class="proyecto" > 
+                <figure onclick="setCollapsible()" class="collapsible"> 
+                    <img src = "img/temtem.jpg" alt = ""> 
+                    <figcaption> <p>Click here to know more!</p></figcaption>
+                </figure>
+                
+                <div class="content">
+                    <p>Worked as a QA for two years on the MMO Temtem, by Crema. As part of a small team, each of us managed a wide variety of tasks, including: localization, compatibility, security, regression, functionality, 
+                        performance, audiovisual and certification tests. The tests were executed both on PC and console builds, as well as within the game engine. </p>
+                    <a href="https://store.steampowered.com/app/745920/Temtem/" target="_blank"><i class="fa-brands fa-steam"></i> <p> Steam page</p></a>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uCn4bhsMDDU?si=n74X2f7oqAg-OTdW" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                </div>           
+            </div>
+
+            <!-- Yo, Creatureto -->
+            <div class="proyecto" > 
+                <figure onclick="setCollapsible()" class="collapsible"> 
+                    <img src = "img/yo_creatureto.jpg" alt = ""> 
+                    <figcaption> <p>Click here to know more!</p></figcaption>
+                </figure>
+                
+                <div class="content">
+                    <p>My team and I created a fangame based on an entertainment show called Yo, Interneto. For International Video Game Day, Mahou -the show's sponsor- reached out to us for a collaboration. That's how Yo, Creatureto 
+                        was born. I did some implementation, coding and bug fixing.</p>
+                    <a href="https://kiwiteam.itch.io/yocreatureto-dinogame" target="_blank"><i class="fa-brands fa-itch-io"></i><p> Itch.io page</p></a>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tX9Mp6yNPWI?si=3LLxRslJnjhuRDDp" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                </div>           
+            </div>
+            
+            <!-- Myrmica -->
+            <div class="proyecto" > 
+                <figure onclick="setCollapsible()" class="collapsible"> 
+                    <img src = "img/myrmica.jpg" alt = ""> 
+                    <figcaption> <p>Click here to know more!</p></figcaption>
+                </figure>
+                
+                <div class="content">
+                    <p>Myrmica is a narrative game created as a final project for a master's degree in Video Game Design. It has been mentioned in some articles and praised for its well-crafted story and mechanics. 
+                        Since there were no QA courses in the program, the team reached out to me for assistance with the process, so I became the main QA.</p>
+                    <a href="https://store.steampowered.com/app/3276840/Myrmica/" target="_blank"><i class="fa-brands fa-steam"></i> <p> Steam page</p></a>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ShOjy29skAk?si=R4NCJlh9fHhFv73P" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                </div>           
+            </div>
+
+            <!-- Eclipse -->
+            <div class="proyecto" > 
+                <figure onclick="setCollapsible()" class="collapsible"> 
+                    <img src = "img/eclipse.jpg" alt = ""> 
+                    <figcaption> <p>Click here to know more!</p></figcaption>
+                </figure>
+                
+                <div class="content">
+                    <p>Eclipse: Dawn of Darkness is a dungeon crawler / hack and slash game where you will fight, cooperatively, to get out of the factory where you are locked up.
+                        Even though this was a sophomore project, it was our first game made in Unity and I'm so proud of our work. I did the majority of coding, implementation and some design.</p>
+                    <a href="https://megalodoncorps.itch.io/eclipse-dawn-of-darkness" target="_blank"><i class="fab fa-itch-io"></i><p> Itch.io page</p></a>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fH0R-SiH-mU?si=fVBj3xkiqhKJZSZE" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                </div>           
+            </div>
+        </div>
+    </section>            
+
+    <!-- ***************CONTACTO***************** -->
+    <section id="contact">
+        <h2 class="title">Contact</h2>
+        <div id="contact_list">
+            <ul>
+                <li> <p>marywedev@gmail.com</p> 
+                     <a title="marywedev@gmail.com"> <i class="fas fa-envelope"></i></a> 
+                     <p class="contact_info">My contact mail!</p></li>
+                <li> <p>María López Ausín</p>
+                     <a href="https://www.linkedin.com/in/mar%C3%ADa-l%C3%B3pez-aus%C3%ADn-680144195/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+                     <p class="contact_info">LinkedIn profile</p></li>
+                <li> <p>Marywe</p>
+                     <a href="https://marywe.itch.io/" target="_blank"><i class="fab fa-itch-io"></i></a> 
+                     <p class="contact_info">itch.io: my video games</p></li>
+                <li> <p>Marywe</p>
+                     <a href="https://www.kaggle.com/marywe" target="_blank"><i class="fa-brands fa-kaggle"></i></a> 
+                     <p class="contact_info">Kaggle: Data analysis notebooks</p></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> MADRID, SPAIN </p>
+        <p>This website has been made entirely by me</p>
+    </footer>
+</body>
+</html>
