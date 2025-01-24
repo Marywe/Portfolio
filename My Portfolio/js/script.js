@@ -12,7 +12,7 @@ function openMenu() {
 function closeMenu() {
     "use strict";
     //Solo cerramos el menú cuando la pantalla es pequeña (menor a 700px de ancho)
-    if (window.innerWidth <= 700) {
+    if (window.innerWidth <= 720) {
         var opciones = document.getElementById("menu").firstElementChild.children;
         var i;
         opciones[0].style.display = "block";
@@ -44,22 +44,12 @@ function openedMenu() {
 
 window.onresize = function () {
     "use strict";
-    if (window.innerWidth <= 700) {
+    if (window.innerWidth <= 720) {
         closeMenu();
     } else {
         openedMenu();
     }
 }
-
-function setCollapsible() {
-   var coll = document.getElementsByClassName("proyecto");
-   
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight) { content.style.maxHeight = null; } 
-    else { content.style.maxHeight = content.scrollHeight + "px"; }
-}
-
 
 function setupCollapsible() {
     var coll = document.getElementsByClassName("collapsible");
@@ -68,11 +58,17 @@ function setupCollapsible() {
       coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
         var content = this.nextElementSibling;
-        if (content.style.maxHeight) { content.style.maxHeight = null; } 
-        else { content.style.maxHeight = content.scrollHeight + "px"; }
+        if (content.style.maxHeight) { 
+            content.style.maxHeight = null; 
+            this.style.borderRadius = "1em";
+        } 
+        else { 
+            content.style.maxHeight = content.scrollHeight + "px";
+            this.style.borderRadius = "1em 1em 0em 0em";
+        }
       });
     }
-  }
+}
   
 document.addEventListener("DOMContentLoaded", setupCollapsible);
 
