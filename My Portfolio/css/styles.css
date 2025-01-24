@@ -104,7 +104,7 @@ p {
 
 #img-container > img{
   border-radius: 1em;
-  max-width: 20em;
+  max-width: 22em;
 }
 
 #text-container
@@ -183,6 +183,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 0;
 }
 
 #contact_list li {
@@ -198,6 +199,7 @@ p {
   padding-bottom: 0.1em;
 }
 .contact_info { font-size: 0.7em; }
+
 /*****************FOOTER*************************/
 footer p{ 
   text-align: center;
@@ -211,13 +213,13 @@ footer p{
 
 /*****************RESOLUTIONS*************************/
 @media screen and (max-width: 1200px) {
-
+/* Smaller menu, column containers */
   #menu>ul>li {
     font-size: 1.6em;
   }
 
   #contact_list li { flex: 40%; }
-
+  #contenedor { flex-direction: column;}
 
 }
 @media screen and (max-width: 720px) {
@@ -244,8 +246,9 @@ footer p{
   }
 
   #contact_list li { flex: 90%; }
+  #contact_list li i{ font-size: 3em;}
 
-  #contenedor { flex-direction: column;}
+  section > div{padding: 1em 1em;} 
 
 }
 
